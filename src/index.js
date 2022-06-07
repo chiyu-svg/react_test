@@ -1,3 +1,4 @@
+// 为什么 React 没有被使用依然需要引入？  因为 JSX 只是 React.createElement(component, props, ...children) 的语法糖，因此在编译的时候，需要确保 React 在作用域内
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
